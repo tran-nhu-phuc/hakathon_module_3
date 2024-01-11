@@ -1,0 +1,58 @@
+.action-manager-student {
+    display: flex;
+    column-gap: 10px;
+}
+
+.action-manager-student button:nth-child(1) {
+    padding: 10px 20px;
+    background-color: rgb(53, 53, 246);
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.action-manager-student button:nth-child(2) {
+    color: #ffff;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px;
+}
+
+.table-manager-student {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.table-manager-student .box {
+    padding: 10px;
+    width: 60%;
+}
+
+.table-manager-student .box .btn-create-student {
+    padding: 20px 40px;
+    background-color: rgb(20, 224, 20);
+    color: #ffff;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.table-manager-student .box .header-table-student {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 10px 0;
+    background-color: #ffff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+
+.table-manager-student .box .table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
