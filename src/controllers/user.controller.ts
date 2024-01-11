@@ -1,0 +1,11 @@
+import express from "express";
+import UserService from "../services/user.services";
+import UserMiddleware from "../middlewares/user.middleware";
+const userController = express.Router();
+const userService = new UserService();
+userController.get("/", userService.getAllUser);
+userController.get("/detail/:id", userService.getDetailUser);
+userController.post("/register", UserMiddleware, userService.addUser);
+userController.patch("/edit/:id", userService.patchAddressUser);
+userController.patch("/delete/:id", userService.deleteUser);
+export default userController;
